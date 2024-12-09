@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: flask-playwright-app
+    env: python
+    runtime: python3
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn app:app"
