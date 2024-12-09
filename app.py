@@ -3,6 +3,7 @@ import random
 import string
 from scrap import get_full_page_content
 import time
+import os
 
 app = Flask(__name__)
 
