@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL Generator</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .form-group {
+        margin-bottom: 15px;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+      input[type="number"] {
+        padding: 5px;
+        width: 200px;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>URL Generator</h1>
+    <form method="POST">
+      <div class="form-group">
+        <label for="start_range">Start Range:</label>
+        <input type="number" id="start_range" name="start_range" required />
+      </div>
+      <div class="form-group">
+        <label for="end_range">End Range:</label>
+        <input type="number" id="end_range" name="end_range" required />
+      </div>
+      <button type="submit">Generate URLs</button>
+    </form>
+  </body>
+</html>
