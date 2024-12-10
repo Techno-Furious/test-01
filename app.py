@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import random
 import string
-from scrap import get_full_page_content
+from st import get_full_page_content
 import time
 import os
 
