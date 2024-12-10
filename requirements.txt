@@ -2,3 +2,4 @@ flask
 playwright 
 selenium
 webdriver-manager
+streamlit
